@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 cat <<EOF > ../.env
 # UID/GID for container user
