@@ -11,7 +11,7 @@ else
 fi
 
 # 2. .env 生成
-if [ ! -f .env ]; then
+if [ ! -f ../.env ]; then
   ./generate-env.sh
 fi
 
