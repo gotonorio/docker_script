@@ -17,4 +17,4 @@ fi
 
 # 3. 起動
 echo " Starting containers..."
-docker ../compose up -d
+docker compose -f ../compose.yml up -d
